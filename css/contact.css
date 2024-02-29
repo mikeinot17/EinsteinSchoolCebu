@@ -34,6 +34,7 @@
     height: 30rem;
     margin: 7rem auto;
     border-radius: 1rem;
+    margin-bottom: 0;
 }
 
 /* ===========aside============ */
@@ -43,7 +44,7 @@
     padding: 3rem;
     border-radius:1rem;
     position: relative;
-    bottom: 10rem;
+    bottom: 5rem;
 }
 .aside_image{
     width: 12rem;
@@ -108,6 +109,33 @@ input, textarea {
     margin-top: 1rem;
     cursor: pointer;
 }
+
+/* =====map====== */
+.map_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    /* border: 1px solid red; */
+    background-color: var(--color-ipsscreen);
+  
+}
+.map_container h2{
+    margin-top: -5rem;
+}
+iframe {
+    width: 80%;
+    height: 500px;
+}
+
+
+
+
+
+
 
 /* =======media queris (tablet) ======*/
 

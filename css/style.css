@@ -174,7 +174,7 @@ header{
 }
 .categories_right{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
 }
 .category {
@@ -197,9 +197,7 @@ header{
 .category:nth-child(4) .category_icon{
     background: var(--color-warning);
 }
-.category:nth-child(5) .category_icon{
-    background: var(--color-primary);
-}
+
 .category_icon{
     background: var(--color-primary);
     padding: 0.7rem;
